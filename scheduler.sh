@@ -5,8 +5,8 @@ echo " ---------------------------"
 
 while true
 do
-	make build_all;
-	echo "All images builded"
+    make build_all;
+    echo "All images builded"
     sleep 10;
     echo "Spinning depth1 crawler container"
     make d1;
