@@ -1,0 +1,14 @@
+# build stage
+FROM golang:latest
+WORKDIR /go/src/app
+RUN go get github.com/gocolly/colly
+RUN go get github.com/gocolly/colly/debug
+COPY epoca_d3.go .
+RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o main .
+
+# run stage
+FROM alpine:latest  
+RUN apk --no-cache add ca-certificates
+WORKDIR /root/
+COPY --from=0 /go/src/app .
+CMD ["./main"]
