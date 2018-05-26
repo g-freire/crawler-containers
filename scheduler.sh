@@ -10,10 +10,10 @@ do
     sleep 10;
     echo "Spinning depth1 crawler container"
     make d1;
-    sleep 10800
+    sleep 10;
     echo "Spinning depth2 crawler container"
     make d2;
-    sleep 10800
+    sleep 10
     echo "Spinning depth3 crawler container"
     make d3;
 done
