@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="350" height="300" src="http://pliutau.com/godocker.png">
+  <img width="220" height="180" src="http://pliutau.com/godocker.png">
 </p>
 
 ##### This services containers can be deployed using different strategies. Is up to you decide the finest network overhead balance. 
