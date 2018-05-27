@@ -1,10 +1,10 @@
-##### This services containers can be deployed using different strategies.Is up to you decide the finest network overhead balance. Every folder of the project contains a golang app(the crawler algo) and a dockerfile(the container image)
-###### If you want to change the crawlers domain,delay,etc do it and just build the images again.
-
+##### This services containers can be deployed using different strategies.Is up to you decide the finest network overhead balance. 
+#### Every folder of the project contains a golang app(the crawler algo) and a dockerfile(the container image)
+##### If you want to change the crawlers domain,delay,etc do it and just build the images again.
+#
 #### Examples:
 
 #### 1) Will build the depth 1 & 2 crawlers services and run it in a linux envinroment network. 
-A data folder with a .txt file containing the crawled URLs will be generate at root
 ```diff
 + $ make depth1
 + $ make depth2
@@ -19,10 +19,4 @@ A data folder with a .txt file containing the crawled URLs will be generate at r
 + $ make build_all
 + $ make d1 d2 d3
 ```
-#
-#
-#
-####TODO
-##### docker-compose persistence to a db or container volume
-##### easier way to change the apps domain
 
