@@ -1,6 +1,7 @@
 <p align="center">
   <img width="220" height="180" src="http://pliutau.com/godocker.png">
 </p>
+
 ##### The services containers can be deployed using different strategies.
 ##### Is up to you to fine tune the network overhead balance. 
 ##### Every folder of the project contains a golang app(the crawler algo) and a dockerfile(the container image). 
