@@ -1,6 +1,5 @@
-![alt text](http://pliutau.com/godocker.png)
 
-- <img src="http://pliutau.com/godocker.png" width="48">
+- <img src="http://pliutau.com/godocker.png" width="300" height="300">
 
 
 ##### This services containers can be deployed using different strategies. Is up to you decide the finest network overhead balance. 
@@ -24,4 +23,9 @@
 + $ make d1 d2 d3
 ```
 
-  - <img src="http://pliutau.com/godocker.png" width="200" height="400" />
+  - <img src="http://pliutau.com/godocker.png" width="500" height="400" />
+  ##### TODO
+- [x] Makefile 
+- [x] sample scheduler
+- [ ] docker-compose.yml to SQL persist/ volume container backup
+- [ ] easier way to change app domain
