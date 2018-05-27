@@ -1,6 +1,6 @@
 ![alt text](http://pliutau.com/godocker.png)
 
-- <img src="http://pliutau.com/godocker.pngo" width="48">
+- <img src="http://pliutau.com/godocker.png" width="48">
 
 
 ##### This services containers can be deployed using different strategies. Is up to you decide the finest network overhead balance. 
@@ -24,4 +24,4 @@
 + $ make d1 d2 d3
 ```
 
-  - <img src="http://pliutau.com/godocker.pngo" width="200" height="400" />
+  - <img src="http://pliutau.com/godocker.png" width="200" height="400" />
