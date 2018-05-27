@@ -1,9 +1,5 @@
-
-- <img src="http://pliutau.com/godocker.png" width="200" height="100">
-
-
 <p align="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+  <img width="350" height="300" src="http://pliutau.com/godocker.png">
 </p>
 
 ##### This services containers can be deployed using different strategies. Is up to you decide the finest network overhead balance. 
@@ -29,7 +25,8 @@
 #
 #
 #  ##### TODO
-- [x] Makefile 
+- [x] Multi-stage Dockerfiles
+- [x] Makefile shortcuts
 - [x] sample scheduler
 - [ ] docker-compose.yml to SQL persist/ volume container backup
 - [ ] easier way to change app domain
