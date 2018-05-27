@@ -24,9 +24,16 @@
 ```
 #
 #
-#  ##### TODO
+#### TODO
+##### Infra
 - [x] Multi-stage Dockerfiles
 - [x] Makefile shortcuts
-- [x] sample scheduler
+- [x] sample scheduler & helper scripts
 - [ ] docker-compose.yml to SQL persist/ volume container backup
+- [ ] orchestration
+##### Backend
+- [x] set random delay, debug and paralell jobs
+- [ ] distributed cloud server
+- [ ] random headers & random proxies
 - [ ] easier way to change app domain
+- [ ] db design and sql schema to local and cloud persistence
