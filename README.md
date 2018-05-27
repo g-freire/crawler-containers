@@ -1,6 +1,10 @@
 
-- <img src="http://pliutau.com/godocker.png" width="300" height="300">
+- <img src="http://pliutau.com/godocker.png" width="200" height="100">
 
+
+<p align="center">
+  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+</p>
 
 ##### This services containers can be deployed using different strategies. Is up to you decide the finest network overhead balance. 
 ##### Every folder of the project contains a golang app(the crawler algo) and a dockerfile(the container image). If you want to change the crawlers domain,delay,etc do it and just build the images again.
@@ -22,9 +26,9 @@
 + $ make build_all
 + $ make d1 d2 d3
 ```
-
-  - <img src="http://pliutau.com/godocker.png" width="500" height="400" />
-  ##### TODO
+#
+#
+#  ##### TODO
 - [x] Makefile 
 - [x] sample scheduler
 - [ ] docker-compose.yml to SQL persist/ volume container backup
