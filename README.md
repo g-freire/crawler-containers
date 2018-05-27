@@ -1,12 +1,12 @@
 <p align="center">
   <img width="220" height="180" src="http://pliutau.com/godocker.png">
 </p>
-
-##### This services containers can be deployed using different strategies. Is up to you decide the finest network overhead balance. 
-##### Every folder of the project contains a golang app(the crawler algo) and a dockerfile(the container image). If you want to change the crawlers domain,delay,etc do it and just build the images again.
+##### The services containers can be deployed using different strategies.
+##### Is up to you decide the finest network overhead balance. 
+##### Every folder of the project contains a golang app(the crawler algo) and a dockerfile(the container image). 
+##### If you want to change the crawlers domain,delay,etc do it and just build the images again.
 #
 #### Examples:
-
 #### 1) Will build the depth 1 & 2 crawlers services and run it in a linux envinroment network. 
 ```diff
 + $ make depth1
@@ -24,14 +24,14 @@
 ```
 #
 #
-#### TODO
-##### Infra
+##### TODO
+###### *Infra
 - [x] Multi-stage Dockerfiles
 - [x] Makefile shortcuts
 - [x] sample scheduler & helper scripts
 - [ ] docker-compose.yml to SQL persist/ volume container backup
 - [ ] orchestration
-##### Backend
+###### *Backend
 - [x] set random delay, debug and paralell jobs
 - [ ] distributed cloud server
 - [ ] random headers & random proxies
