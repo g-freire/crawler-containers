@@ -2,8 +2,8 @@
   <img width="220" height="180" src="http://pliutau.com/godocker.png">
 </p>
 
-###### The services containers can be deployed using different strategies. Is up to you to fine tune the network overhead balance. 
-###### Every folder of the project contains a golang app(the crawler algo) and a dockerfile(the container image). If you want to change the crawlers domain,delay,etc, do it and just build the images again.
+###### The services can be deployed using different strategies. The services apps are very fast, so you may fine tune the network overheads and overflows
+###### Every folder of the project contains a golang app(the crawler algorithms) and a dockerfile(the container image). If you want to change the app domain,delay,etc, do it and just build the images again.
 
 #### Examples:
 #### 1) Will build the depth 1 & 2 crawlers services and run it in a linux envinroment network. 
