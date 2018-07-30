@@ -1,3 +1,4 @@
+ [![Docker Build](https://img.shields.io/docker/build/pierrezemb/gostatic.svg?style=plastic)](https://hub.docker.com/r/pierrezemb/gostatic/) [![Build Status](https://travis-ci.org/PierreZ/goStatic.svg?branch=master)](https://travis-ci.org/PierreZ/goStatic)  
 <p align="center">
   <img width="220" height="180" src="http://pliutau.com/godocker.png">
 </p>
