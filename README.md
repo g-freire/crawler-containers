@@ -1,4 +1,5 @@
- [![Docker Build]](https://hub.docker.com/r/gfreire)] [![Build Status](https://travis-ci.org)](https://travis-ci.org)]  
+ [![Docker Build](https://img.shields.io/docker/build/pierrezemb/gostatic.svg?style=plastic)](https://hub.docker.com/r/gfreire)
+ [![Build Status](https://travis-ci.org/PierreZ/goStatic.svg?branch=master)](https://travis-ci.org) 
 <p align="center">
   <img width="220" height="180" src="http://pliutau.com/godocker.png">
 </p>
