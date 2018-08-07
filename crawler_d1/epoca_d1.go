@@ -8,19 +8,19 @@ import (
 )
 
 func main() {
-	// instancia coletor com depth e debug 
+	// call the crawler methods from colly package
 	c := colly.NewCollector(
 		 colly.Debugger(&debug.LogDebugger{}),
 		 colly.MaxDepth(1),
 	)
-	// parametriza os limites do coletor
+	// parametrize the crawler settings
 	c.Limit(&colly.LimitRule{
 		DomainGlob:  "*",
 		Parallelism: 1,
 		Delay:       5 * time.Second,
 		RandomDelay: 1 * time.Second,
 	})
-	// segue elementos com tag <a> e atributo href
+	// follows href <a> html tokens
 	c.OnHTML("a[href]", func(e *colly.HTMLElement) {
 		link := e.Attr("href")
 		fmt.Println(link)
